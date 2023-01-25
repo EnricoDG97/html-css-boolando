@@ -10,6 +10,7 @@ nav {
     justify-content: center;
 
     position: fixed;
+    z-index: 2;
 }
 
 .container {
@@ -91,6 +92,8 @@ main {
 
     display: flex;
     flex-direction: column;
+
+    /* position: relative; */
 }
 
 .card-image img {
@@ -171,3 +174,54 @@ footer {
 }
 
 /* ////////////////////////////// FOOTER END HERE */
+
+/* ---------- HOVER  */
+
+.tag {
+    position: relative;
+    bottom: 2em;
+    margin-bottom: -10px;
+}
+
+.fifty-percent-sale {
+    padding: 0.5em 1em;
+    background-color: red;
+    border-radius: 4px;  
+    left: 0;
+    display: inline-block;
+    font-size: 0.5em;
+    max-width: fit-content;
+} 
+
+.thirty-percent-sale {
+    padding: 0.5em 1em;
+    background-color: red;
+    border-radius: 4px;  
+    left: 0;
+    display: inline-block;
+    font-size: 0.5em;
+    max-width: fit-content;
+} 
+
+.sustainability {
+    padding: 0.5em 1em;
+    background-color: forestgreen;
+    border-radius: 4px;  
+    display: inline-block;
+    font-size: 0.5em;
+    max-width: fit-content;
+}
+
+.like-heart {
+    top: 3em;
+    left: 90%;
+    background-color: white;
+    height: 5%;
+    width: 10%;
+    color: black;
+    text-align: center;
+    vertical-align: middle;
+    position: relative;
+    display: inline-block;
+}
+
