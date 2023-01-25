@@ -71,18 +71,19 @@ nav {
 /* ------------------ MAIN START HERE */
 
 main {
+    padding: 90px 0;
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
 }
 
 .main-container {
-    padding-top: 90px;
-
     display: flex;
     flex-flow: row;
     justify-content: space-between;
     gap: 20px;
-
 }
 
 .inner-card {
@@ -95,7 +96,6 @@ main {
 .card-image img {
     height: 100%;
     width: 100%;
-    
 }
 
 .card-text {
@@ -104,6 +104,10 @@ main {
 
 strong, caption {
     display: block;
+}
+
+strong {
+    text-transform: capitalize;
 }
 
 .effective-price {
