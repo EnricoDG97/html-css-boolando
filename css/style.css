@@ -28,10 +28,11 @@ nav {
     gap: 10px;
 
     height: 100%;
+    min-width: 80px;
 }
 
 #categories .inner-categories {
-    font-size: 1em;
+    font-size: 0.7em;
     color: white;
 }
 
@@ -41,6 +42,7 @@ nav {
 
 #logo-section {
     max-height: 100%;
+    min-width: 80px;
 
     display: flex;
     flex-direction: row;
@@ -65,3 +67,50 @@ nav {
 }
 
 /* ////////////////NAVBAR END */
+
+/* ------------------ MAIN START HERE */
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.main-container {
+    padding-top: 90px;
+
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    gap: 20px;
+
+}
+
+.inner-card {
+    max-width: 30%;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.card-image img {
+    height: 100%;
+    width: 100%;
+    
+}
+
+.card-text {
+    font-size: 0.6em;
+}
+
+strong, caption {
+    display: block;
+}
+
+.effective-price {
+    color: red;
+    padding-right: 0.5em;
+}
+
+.discount-price {
+    text-decoration: line-through;
+}
