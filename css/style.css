@@ -241,3 +241,6 @@ footer {
     display: inline-block;
 }
 
+.inner-card .like-heart:hover {
+    color: red;
+}
