@@ -106,7 +106,7 @@ strong, caption {
     display: block;
 }
 
-strong {
+.card-text strong {
     text-transform: capitalize;
 }
 
@@ -118,3 +118,56 @@ strong {
 .discount-price {
     text-decoration: line-through;
 }
+
+/* ////////////////////////////////// MAIN END HERE */
+
+/* ------------------------- FOOTER START HERE */
+
+footer {
+    width: 100%;
+    background-color: #1a1a1a; 
+    height: 50px;
+   
+    display: flex;
+    justify-content: center;
+    /* justify-content: space-between; */
+
+    position: fixed;
+    bottom: 0em;
+
+    font-size: 0.6em;
+    color: white;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#bottom-rights {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+}
+
+#info-rights {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5em;
+}
+
+#bottom-socials {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+}
+
+#links-social {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 0.5em;
+}
+
+/* ////////////////////////////// FOOTER END HERE */
