@@ -74,7 +74,6 @@ nav {
 main {
     padding: 90px 0;
     display: flex;
-    /* justify-content: center; */
     flex-direction: column;
     align-items: center;
     gap: 25px;
@@ -133,13 +132,13 @@ footer {
    
     display: flex;
     justify-content: center;
-    /* justify-content: space-between; */
 
     position: fixed;
     bottom: 0em;
 
     font-size: 0.6em;
     color: white;
+    z-index: 3;
 }
 
 .footer-container {
