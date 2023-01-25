@@ -10,7 +10,7 @@ nav {
     justify-content: center;
 
     position: fixed;
-    z-index: 2;
+    z-index: 3;
 }
 
 .container {
@@ -93,10 +93,10 @@ main {
     display: flex;
     flex-direction: column;
 
-    /* position: relative; */
+    position: relative;
 }
 
-.card-image img {
+.image img {
     height: 100%;
     width: 100%;
 }
@@ -175,12 +175,13 @@ footer {
 
 /* ////////////////////////////// FOOTER END HERE */
 
-/* ---------- HOVER  */
+/* ---------- HEARTS & TAGS - POSITION  */
 
 .tag {
     position: relative;
     bottom: 2em;
     margin-bottom: -10px;
+    z-index: 2;
 }
 
 .fifty-percent-sale {
@@ -222,6 +223,21 @@ footer {
     text-align: center;
     vertical-align: middle;
     position: relative;
+    display: inline-block;
+    z-index: 2;
+}
+
+/* ///////////////////////////////// HOVER RULES */
+
+.hov {
+    display: none;
+    position: absolute;
+    top: 10px;
+    left: 0;
+    z-index: 1;
+}
+
+.inner-card:hover .hov {
     display: inline-block;
 }
 
